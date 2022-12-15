@@ -137,6 +137,7 @@ a:hover {
     opacity: 0.6;
     transition: 0.3s;
     box-shadow: 10px 5px 15px;
+    flex-wrap: nowrap;
   }
   .card-about h1 {
     color: #ffffff;
@@ -202,6 +203,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
 @media screen and (max-width: 768px) {
     .header,
     .card,
+    .card-about,
+    .about-me,
     nav {
         flex-direction: column;
     }
