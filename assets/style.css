@@ -35,6 +35,13 @@ body {
     justify-content: center;
 }
 /* all selectors for the animated cards on the page */
+
+#lyric {
+    width: 700px;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
+    url(./images/lyricbackkground.jfif);
+}
+
 .card {
     border-radius: 25px;
     border: 2px solid black;
