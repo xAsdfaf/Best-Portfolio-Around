@@ -4,8 +4,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background:transparent;
+    background: transparent;
 }
+
 /* Selectors for the header, including my name and different IDs to affect different words */
 .header {
     padding: 20px;
@@ -28,18 +29,44 @@
     font-size: 30px;
     background: transparent;
 }
+
 /* Used for the background picture */
 body {
     background-image: url(./images/background.jpg);
     background-size: cover;
     justify-content: center;
 }
+
 /* all selectors for the animated cards on the page */
 
 #lyric {
     width: 700px;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
-    url(./images/lyricbackkground.jfif);
+        url(./images/lyricbackkground.jfif);
+}
+
+#planner {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
+        url(./images/planner-image);
+}
+
+#about {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
+        url(./images/myAvatar.png);
+}
+
+#pass-gen {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
+        url(./images/passwordgen);
+}
+
+.projects {
+    background-color: black;
+    color: white
+}
+
+.about {
+    background-color: black;
 }
 
 .card {
@@ -53,36 +80,38 @@ body {
     margin-top: 20px;
     display: inline-flex;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
-    url(./images/website-header.png);
+        url(./images/website-header.png);
     background-position-x: center;
     background-position-y: bottom;
     opacity: 0.6;
     transition: 0.3s;
     box-shadow: 10px 5px 15px;
-  }
-  .card h1 {
+}
+
+.card h1 {
     color: #ffffff;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
     display: flex;
     flex-wrap: wrap;
     background: transparent;
-  }
+}
 
-  .card a {
+.card a {
     color: #ffffff;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
     display: flex;
     flex-wrap: wrap;
     background: transparent;
-  }
+}
 
-  .card:hover {
+.card:hover {
     width: 520px;
     height: 320px;
     opacity: 1;
-  }
+}
+
 /* affects the appearance when the anchor element is in use */
 a:active {
     text-decoration: none;
@@ -100,8 +129,9 @@ a:visited {
 }
 
 a:hover {
-    color: black;   
+    color: black;
 }
+
 /* Selectors for the about me section at the bottom of the page, separated by each html element */
 .about-me {
     text-align: center;
@@ -118,7 +148,7 @@ a:hover {
 
 .about-me h2 {
     font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
     text-decoration: underline;
 }
 
@@ -126,6 +156,7 @@ a:hover {
     font-size: 30px;
     line-height: 40px;
 }
+
 /* Selectors for the cards inside the about me section, linking to github and linkedin */
 .card-about {
     border-radius: 25px;
@@ -138,44 +169,45 @@ a:hover {
     margin-top: 20px;
     display: inline-flex;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
-    url(./images/website-header.png);
+        url(./images/website-header.png);
     background-position-x: center;
     background-position-y: bottom;
     opacity: 0.6;
     transition: 0.3s;
     box-shadow: 10px 5px 15px;
     flex-wrap: nowrap;
-  }
-  .card-about h1 {
+}
+
+.card-about h1 {
     color: #ffffff;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
     display: flex;
     flex-wrap: wrap;
     background: transparent;
-  }
+}
 
-  .card-about a {
+.card-about a {
     color: #ffffff;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
     display: flex;
     flex-wrap: wrap;
     background: transparent;
-  }
+}
 
-  .card-about:hover {
+.card-about:hover {
     width: 320px;
     height: 120px;
     opacity: 1;
-  }
+}
 
 /* Affects the footer for the page, finishing off the website! */
 .footer {
-padding: 30px;
-text-align: center;
-background: transparent;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
+    padding: 30px;
+    text-align: center;
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
 }
 
 .footer h2 {
@@ -184,11 +216,17 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, monospace;
 }
 
 .footer p {
-    background:transparent;
+    background: transparent;
     font-size: 20px;
 }
+
+div ul li {
+    color: #000000;
+}
+
 /* Selector used for resizing for mobile devices, or smaller browsers */
 @media screen and (max-width: 768px) {
+
     .header,
     .card,
     .card-about,
