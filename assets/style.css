@@ -45,9 +45,9 @@ body {
         url(./images/lyricbackkground.jfif);
 }
 
-#planner {
+#nictactoe {
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(185, 185, 185)),
-        url(./images/planner-image);
+        url(./images/nick-cage-face.jpg);
 }
 
 #about {
